@@ -1,0 +1,14 @@
+{
+  "name": "statusline-studio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Claude Code status line renderer and terminal editor (settings JSON driven)",
+  "type": "module",
+  "bin": {
+    "statusline-studio": "src/install.js"
+  },
+  "files": ["src", "skill"],
+  "engines": {
+    "node": ">=22"
+  }
+}

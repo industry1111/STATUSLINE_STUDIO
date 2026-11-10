@@ -1,0 +1,40 @@
+{
+  "hook_event_name": "Status",
+  "session_id": "statusline-studio-sample",
+  "model": {
+    "id": "claude-opus-5-5",
+    "display_name": "Opus 5.5",
+    "version": "20261020"
+  },
+  "workspace": {
+    "added_dirs": []
+  },
+  "version": "2.1.140",
+  "output_style": {
+    "name": "default"
+  },
+  "effort": {
+    "level": "high"
+  },
+  "cost": {
+    "total_cost_usd": 1.2345,
+    "total_duration_ms": 1834000,
+    "total_api_duration_ms": 920000,
+    "total_lines_added": 120,
+    "total_lines_removed": 14
+  },
+  "context_window": {
+    "total_input_tokens": 152340,
+    "total_output_tokens": 30211,
+    "context_window_size": 200000,
+    "current_usage": {
+      "input_tokens": 1200,
+      "output_tokens": 800,
+      "cache_creation_input_tokens": 3400,
+      "cache_read_input_tokens": 88000
+    },
+    "used_percentage": 46,
+    "remaining_percentage": 54
+  },
+  "exceeds_200k_tokens": false
+}
